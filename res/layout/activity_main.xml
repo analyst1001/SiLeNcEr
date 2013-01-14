@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/latitude"
+        android:layout_below="@+id/latitude"
+        android:layout_marginTop="26dp"
+        android:text="@string/longitude" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="88dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/latitude" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/longitude"
+        android:layout_below="@+id/longitude"
+        android:layout_marginTop="28dp"
+        android:text="@string/status" />
+
+    <TextView
+        android:id="@+id/statLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/status"
+        android:layout_alignBottom="@+id/status"
+        android:layout_alignLeft="@+id/longLabel"
+        android:text="@string/statLabel" />
+
+    <TextView
+        android:id="@+id/latLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/longitude"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="39dp"
+        android:text="@string/latLabel" />
+
+    <TextView
+        android:id="@+id/longLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/status"
+        android:layout_alignLeft="@+id/latLabel"
+        android:text="@string/longLabel" />
+
+    <Button
+        android:id="@+id/addLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/latLabel"
+        android:layout_below="@+id/statLabel"
+        android:layout_marginTop="60dp"
+        android:onClick="addLocation"
+        android:text="@string/addLoc" />
+
+    <Button
+        android:id="@+id/remLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/addLoc"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="67dp"
+        android:text="@string/remLoc" />
+
+<!--    <Button
+        android:id="@+id/exitApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="84dp"
+        android:layout_toRightOf="@+id/addLoc"
+        android:text="@string/exitApp"
+        android:onClick="exitApp" /> -->
+  
+</RelativeLayout>

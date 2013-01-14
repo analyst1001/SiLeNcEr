@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SiLeNcEr</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="latitude">NULL</string>
+    <string name="longitude">NULL</string>
+    <string name="status">NULL</string>
+    <string name="addLoc">Add</string>
+    <string name="latLabel">Latitude</string>
+    <string name="longLabel">Longitude</string>
+    <string name="statLabel">Status</string>
+	<string name="remLoc">Remove</string>
+<!-- <string name="exitApp">Exit</string> -->
+</resources>
