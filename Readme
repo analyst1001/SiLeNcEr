@@ -1,0 +1,5 @@
+This application automatically sets your android phone to silent mode whenever you are in particular locations. You can add the locations yourself.
+
+For Developers:
+This application is still incomplete. You can download it and develop it if u want. The "Remove" button does not works. I had some problems with determining GPS location on real android phone.
+I thought of using requestProximityAlert() but I didn't wanted to use NETWORK_PROVIDER for getting location. 
